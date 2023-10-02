@@ -1,17 +1,17 @@
 <?php
 $conf->debug = true; # set true during development and use in your code (for instance check if true to send additional message)
 
-# ---- Webapp location
+# ---- Main webapp configuration
 $conf->server_name = 'localhost';   # server address and port
 $conf->protocol = 'http';           # http or https
-$conf->app_root = '/amelia/public';   # project subfolder in domain (relative to main domain)
+$conf->app_root = '/project_list/public';   # project subfolder in domain (relative to main domain)
 
 # ---- Database config - values required by Medoo
 $conf->db_type = 'mysql';
 $conf->db_server = 'localhost';
-$conf->db_name = '_database_name';
-$conf->db_user = '_user';
-$conf->db_pass = '_password';
+$conf->db_name = 'lista';
+$conf->db_user = 'root';
+$conf->db_pass = '';
 $conf->db_charset = 'utf8';
 
 # ---- Database config - optional values
